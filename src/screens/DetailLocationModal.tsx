@@ -60,8 +60,9 @@ const styles = StyleSheet.create({
     },
     mapViewContent: {
         width: width - 32,
-        height: (16 / 9) * (width - 32),
-        marginLeft: 16
+        height: (9 / 16) * (width - 32),
+        marginLeft: 16,
+        marginTop: 16
     },
     modalContent: {
         borderTopLeftRadius: 12,
