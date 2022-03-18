@@ -24,3 +24,7 @@ export const removeAccents = (str: string): string => {
     str = str.replace(/ + /g, ' ');
     return str;
 };
+
+export const getDegree = (value: number) => {
+    return (value - 273.15).toFixed(2)
+};

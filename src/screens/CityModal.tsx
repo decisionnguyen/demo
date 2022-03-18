@@ -7,7 +7,6 @@ import {RawCity} from "../store/cities/types";
 import {setSelectedCityAction, useSelectedCity} from "../store/constant";
 import {IC_CHECK} from "../assets";
 import {normalizeStringForSearch} from "../utils/string";
-import {text} from "stream/consumers";
 
 interface Props {
     modalVisible: boolean,
