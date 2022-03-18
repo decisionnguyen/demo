@@ -50,4 +50,6 @@ export interface RawWeather {
         gust: number;
         speed: number;
     };
+    dew_point: number,
+    uvi: number
 }

@@ -9,7 +9,7 @@ export const fetchCities = () => {
 };
 
 export const getCityWeather = async (latitude: number, longitude: number) => {
-    const {data} = await Fetch.get<{data: RawWeather}>('/weather', {
+    const {data} = await Fetch.get<RawWeather>('/weather', {
         params: {
             lat: latitude,
             lon: longitude,
